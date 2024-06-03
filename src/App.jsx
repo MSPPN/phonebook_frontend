@@ -74,7 +74,7 @@ const App = () => {
   const [persons, setPersons] = useState([])
   const [newName, setNewName] = useState('')
   const [number, setNumber] = useState('')
-  const [searchName, setSearchName] = useState('')
+  const [searchName, setSearchName] = useState(true)
   const [errorMessage, setErrorMessage] = useState(null)
   const [notification, setNotification] = useState(null)
 
